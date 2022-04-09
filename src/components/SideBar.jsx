@@ -13,9 +13,9 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-export default function SideBar() {
+export default function SideBar({ showMenu }) {
   return (
-    <div className="sidebar-container">
+    <div className={`sidebar-container ${showMenu && "menu-show"}`}>
       <div className="profile">
         <img src="/images/profile.jpg" alt="" />
         <h2>Ahmed Alian</h2>

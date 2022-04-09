@@ -30,6 +30,10 @@
       display: flex;
       width: 90%;
       margin: 1rem auto;
+      @media (max-width: 570px) {
+        flex-direction: column;
+      }
+
       .education {
         display: flex;
         margin: 1rem;
@@ -64,8 +68,6 @@
         .time {
           font-size: 0.8rem;
           margin-left: 1.5rem;
-        }
-        .desc {
         }
       }
     }

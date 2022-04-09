@@ -19,7 +19,23 @@ body {
   color: black;
   right: 2rem;
   top: 2rem;
+  z-index: 500;
   font-size: 2rem;
   cursor: pointer;
   display: none;
+}
+@media (max-width: 1100px) {
+  .container {
+    width: 90%;
+    left: 0;
+    padding: 0 2rem;
+  }
+  .layout .bars {
+    display: block;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    padding: 0 1rem;
+  }
 }

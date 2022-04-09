@@ -15,12 +15,14 @@ export default function About() {
       <div className="section-head">
         <h2>About</h2>
         <Zoom top cascade>
-          <h3>Front End Web Developer ( React Focused )</h3>
-          <p style={{ fontStyle: "oblique" }}>
-            Determined, Dynamic and creative software engineer Lives in Egypt,
-            eager to use JavaScript & it's Frameworks skills to deliver
-            programming excellence robust reusable and clean code .
-          </p>
+          <div>
+            <h3>Front End Web Developer ( React Focused )</h3>
+            <p style={{ fontStyle: "oblique" }}>
+              Determined, Dynamic and creative software engineer Lives in Egypt,
+              eager to use JavaScript & it's Frameworks skills to deliver
+              programming excellence robust reusable and clean code .
+            </p>
+          </div>
         </Zoom>
       </div>
       <Bounce bottom cascade>

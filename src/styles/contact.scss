@@ -20,6 +20,18 @@ form {
     align-items: center;
     justify-content: space-between;
     width: 80%;
+    @media (max-width: 818px) {
+      width: 100%;
+    }
+    @media (max-width: 650px) {
+      label {
+        display: none;
+      }
+      input,
+      textarea {
+        width: 100% !important;
+      }
+    }
     input,
     textarea {
       margin: 1rem 0;
