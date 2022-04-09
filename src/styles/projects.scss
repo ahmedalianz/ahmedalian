@@ -1,0 +1,68 @@
+.filter-head {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 1rem;
+  margin-bottom: 20px;
+  .item {
+    text-align: center;
+    padding: 1rem;
+    background-color: teal;
+    color: #fff;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: rgb(8, 214, 214);
+    }
+    &.active-button {
+      background-color: rgb(8, 214, 214);
+    }
+  }
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  .project {
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 1rem;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .controls {
+      display: flex;
+      position: absolute;
+      bottom: -3.5rem;
+      transition: all 0.2s ease-in-out;
+      left: 50%;
+      transform: translate(-50%, 0);
+      button {
+        border: none;
+        font-size: 1.2rem;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 1rem 3rem;
+        margin: 0 0.1rem;
+        background-color: rgb(3, 196, 196);
+        &:hover {
+          background-color: rgb(8, 214, 214);
+        }
+      }
+    }
+    &:hover {
+      img {
+        opacity: 0.7;
+      }
+      .controls {
+        bottom: 0.3rem;
+      }
+    }
+  }
+}

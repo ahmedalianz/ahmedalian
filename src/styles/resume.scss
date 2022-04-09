@@ -1,0 +1,73 @@
+.resume-container {
+  .section {
+    .title {
+      span {
+        margin-left: 0.5rem;
+      }
+    }
+    .skills-box {
+      width: 90%;
+      margin: 1rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      .skill {
+        display: flex;
+        margin-bottom: 1rem;
+        align-items: center;
+        flex-direction: column;
+        img {
+          width: 5rem;
+          height: 5rem;
+          object-fit: contain;
+        }
+        span {
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+    }
+    .education-box {
+      display: flex;
+      width: 90%;
+      margin: 1rem auto;
+      .education {
+        display: flex;
+        margin: 1rem;
+        flex-direction: column;
+        .title {
+          font-size: 1.2rem;
+          .icon {
+            font-size: 1rem;
+            margin-right: 0.5rem;
+          }
+        }
+        .time {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .experiences-box {
+      display: flex;
+      width: 90%;
+      margin: 1rem auto;
+      .experience {
+        display: flex;
+        margin-bottom: 1rem;
+        flex-direction: column;
+        .title {
+          font-size: 1.2rem;
+          .icon {
+            font-size: 1rem;
+            margin-right: 0.5rem;
+          }
+        }
+        .time {
+          font-size: 0.8rem;
+          margin-left: 1.5rem;
+        }
+        .desc {
+        }
+      }
+    }
+  }
+}
