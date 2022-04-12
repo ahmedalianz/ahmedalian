@@ -100,7 +100,7 @@ export default function PortfolioRoutes() {
       name: "Agency",
       image: "/images/projects/agency.png",
       link: "https://agency-beta.vercel.app/",
-      filter: [],
+      filter: ["React"],
       images: ["/images/projects/agency.png"],
       desc: "Its a Landing Page",
     },
