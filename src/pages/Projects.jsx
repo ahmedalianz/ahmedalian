@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 
 export default function Projects({ projects }) {
-  const buttons = ["All", "React", "Redux", "Next", "Angular", "MEAN", "MERN"];
+  const buttons = ["All", "React", "Angular", "MERN", "Landing Page"];
   const [viewdProjects, setViewdProjects] = useState(projects);
   const [activeFilter, setActiveFilter] = useState("All");
   const filterHandler = (button) => {
