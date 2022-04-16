@@ -13,7 +13,7 @@ export default function Layout() {
         className="bars"
         onClick={() => setShow((prev) => !prev)}
       />
-      <SideBar showMenu={show} />
+      <SideBar showMenu={show} setShow={setShow} />
       <div className="all-routes">
         <AllRoutes />
       </div>

@@ -13,9 +13,13 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-export default function SideBar({ showMenu }) {
+export default function SideBar({ showMenu, setShow }) {
   return (
-    <div className={`sidebar-container ${showMenu && "menu-show"}`}>
+    <div
+      className={`sidebar-container ${showMenu && "menu-show"}`}
+      onMouseDown={() => setShow(false)}
+      style={{ touchAction: "pan-y" }}
+    >
       <div className="profile">
         <img src="/images/profile.jpg" alt="" />
         <h2>Ahmed Alian</h2>
@@ -47,7 +51,7 @@ export default function SideBar({ showMenu }) {
       <div className="menu">
         <ul>
           <li>
-            <Link to="/">
+            <Link to="/" onClick={() => setShow(false)}>
               <span>
                 <FontAwesomeIcon icon={faUser} className="icon" />
                 <span>About</span>
@@ -55,7 +59,7 @@ export default function SideBar({ showMenu }) {
             </Link>
           </li>
           <li>
-            <Link to="/resume">
+            <Link to="/resume" onClick={() => setShow(false)}>
               <span>
                 <FontAwesomeIcon icon={faFile} className="icon" />
                 <span>Resume</span>
@@ -63,7 +67,7 @@ export default function SideBar({ showMenu }) {
             </Link>
           </li>
           <li>
-            <Link to="/projects">
+            <Link to="/projects" onClick={() => setShow(false)}>
               <span>
                 <FontAwesomeIcon icon={faBriefcase} className="icon" />
                 <span>My Projects</span>
@@ -71,7 +75,7 @@ export default function SideBar({ showMenu }) {
             </Link>
           </li>
           <li>
-            <Link to="/contact">
+            <Link to="/contact" onClick={() => setShow(false)}>
               <span>
                 <FontAwesomeIcon icon={faEnvelope} className="icon" />
                 <span>Contact</span>
