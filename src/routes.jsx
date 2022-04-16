@@ -22,7 +22,7 @@ export default function PortfolioRoutes() {
         "/images/projects/netflix/6.png",
         "/images/projects/netflix/8.png",
       ],
-      desc: "This Application Fetches the Popular Movies and Tv Shows From TMDB ,It's The Same Design Style As The Real Netflix , Manually Customized Accordion Without any external Library , Manually Customized Floating Input Without any external Library , It Supports Two Languages (English & Arabic), It's Also Very responsive Design",
+      desc: "This Application Fetches the Popular Movies and Tv Shows From TMDB ,It's The Same Design Style As The Real Netflix , Manually Customized Components like Accordion & Floating Input Without any external Library , It Supports Two Languages (English & Arabic), It's Also Very responsive Design",
     },
     {
       id: 2,
