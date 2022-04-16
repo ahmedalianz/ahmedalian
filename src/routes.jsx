@@ -123,6 +123,15 @@ export default function PortfolioRoutes() {
       desc: "Its a Landing Page",
     },
     {
+      id: 21,
+      name: "Huddle",
+      image: "/images/projects/huddle.png",
+      link: "https://ahmedalianz.github.io/huddle-landing-page/",
+      filter: ["Landing Page"],
+      images: ["/images/projects/huddle.png"],
+      desc: "Its a Landing Page",
+    },
+    {
       id: 7,
       name: "Bloger",
       image: "/images/projects/bloger.png",
