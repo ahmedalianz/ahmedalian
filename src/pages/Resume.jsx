@@ -20,6 +20,7 @@ export default function Resume() {
     { name: "Express Js", image: "/images/express.png" },
     { name: "Mongo DB", image: "/images/mongo.png" },
     { name: "Angular", image: "/images/angular.webp" },
+    { name: "Angular Material", image: "/images/angmat.png" },
   ];
   const education = [
     {
