@@ -13,6 +13,7 @@ export default function Resume() {
     { name: "Redux Toolkit", image: "/images/redux.webp" },
     { name: "Next Js", image: "/images/next.webp" },
     { name: "Material UI", image: "/images/material.webp" },
+    { name: "Core UI", image: "/images/coreui.png" },
     { name: "Bootstrap", image: "/images/bootstrap.png" },
     { name: "Git", image: "/images/git.webp" },
     { name: "Node Js", image: "/images/node.webp" },
