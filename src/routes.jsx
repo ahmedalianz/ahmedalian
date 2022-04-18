@@ -132,6 +132,15 @@ export default function PortfolioRoutes() {
       desc: "Its a Landing Page",
     },
     {
+      id: 22,
+      name: "Kanban Board",
+      image: "/images/projects/kanban.png",
+      link: "https://kanban-boardz.netlify.app/",
+      filter: ["Landing Page"],
+      images: ["/images/projects/kanban.png"],
+      desc: "Its a Kanban Board to sort tasks",
+    },
+    {
       id: 7,
       name: "Bloger",
       image: "/images/projects/bloger.png",
