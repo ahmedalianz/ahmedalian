@@ -8,6 +8,7 @@ export default function Resume() {
     { name: "HTML", image: "/images/html.webp" },
     { name: "CSS", image: "/images/css.webp" },
     { name: "JavaScript", image: "/images/js.webp" },
+    { name: "TypeScript", image: "/images/ts.png" },
     { name: "SCSS", image: "/images/scss.png" },
     { name: "React", image: "/images/react.webp" },
     { name: "Redux Toolkit", image: "/images/redux.webp" },
