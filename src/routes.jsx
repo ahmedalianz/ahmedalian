@@ -147,6 +147,15 @@ export default function PortfolioRoutes() {
       desc: "Its a Kanban Board to sort tasks",
     },
     {
+      id: 23,
+      name: "My Portfolio",
+      image: "/images/projects/portfolio.png",
+      link: "https://ahmedalian2.vercel.app/",
+      filter: ["React"],
+      images: ["/images/projects/portfolio.png"],
+      desc: "Its My Portfolio",
+    },
+    {
       id: 7,
       name: "Bloger",
       image: "/images/projects/bloger.png",
